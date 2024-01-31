@@ -4,6 +4,7 @@ services:
   app:
     build:
       context: ..
+      dockerfile: ./devops/Dockerfile
       args:
         - DEV=true
     ports:

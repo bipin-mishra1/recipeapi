@@ -10,8 +10,6 @@ WORKDIR /app
 
 COPY ../pyproject.toml ../poetry.lock ./
 
-COPY ./devops/entrypoint.sh ./
-
 RUN pip install poetry && \
     poetry config virtualenvs.create false && \
     poetry install --no-interaction --no-ansi && \
