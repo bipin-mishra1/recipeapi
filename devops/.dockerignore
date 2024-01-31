@@ -1,0 +1,12 @@
+.venv
+README.md
+.git
+.gitignore
+.docker
+.env
+.idea
+
+# python
+app/__pycache__/
+app/*/__pycache__/
+app/*/*/__pycache__/
